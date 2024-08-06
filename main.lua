@@ -102,7 +102,7 @@ local Passed, Statement = pcall(function()
 				BorderSizePixel = 1,
 				Parent = ScreenGui,
 				Position = UDim2.new(0.5, 0, 0.5, 0),
-				Size = UDim2.new(0, 660, 0, 560)
+				Size = UDim2.new(0, 420, 0, 560)
 			})
 			-- //
 			local ScreenGui_MainFrame_InnerBorder = utility:RenderObject("Frame", {
@@ -123,7 +123,7 @@ local Passed, Statement = pcall(function()
 				BorderSizePixel = 1,
 				Parent = ScreenGui_MainFrame,
 				Position = UDim2.new(0, 3, 0, 3),
-				Size = UDim2.new(1, -6, 1, -6)
+				Size = UDim2.new(1, -3, 1, -3)
 			})
 			-- //
 			local InnerBorder_InnerFrame_Tabs = utility:RenderObject("Frame", {
